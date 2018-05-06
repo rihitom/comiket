@@ -35,6 +35,7 @@
 }
 .image1{
 	float: left;
+	opacity: 0.75;
 }
 .navnav{
 	letter-spacing: 0.12em;
@@ -68,66 +69,35 @@
 	font-size: 100px;
 }
 
-.page1b{
-	font-family: "top Ryumin";
-	background-color: #EEEEEE;
-	height: 100vh;
-	width: 100vw;
-	color: #222222;
-}
-.page1 {
-	text-align: center;
-	letter-spacing: 0.2em;
-}
-.page1 h1{
-	font-size: 30px;
-}
-.page1 h2{
-	font-size: 30px;
-}
-.page1 p{
-	font-size: 15px;
-	line-height: 2.5;
-}
-.page1 a{
-	text-decoration: none;
-	color: #ff7f7f;
-}
-.page1 a:hover{
-	opacity:0.5;
-}
 .page2b{
 	font-family: "top Ryumin";
 	background-color: #EEEEEE;
-	height: 100vh;
-	width: 100vw;
+	height: 100%;
+	width: 100%;
 	color: #222222;
 	position: relative;
 }
 .page2{
-	white-space: nowrap;
-	text-align: center;
+	padding: 60px 0px 0px 90px;
 	letter-spacing: 0.2em;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	-webkit-transform: translate(-50%, -50%);
-	transform: translate(-50%,-50%)
+}
+.image2{
+	opacity: 0.75;
+}
+.moji{
+	padding: 30px;
+	width: 600px;
+	float: left;
 }
 .page2 h1{
-	font-size: 20px; 
-	margin-bottom: 20px
+	font-size: 25px; 
+	margin-bottom: 20px;
 }
 .page2 h2{
-	font-size: 10px;
+	font-size: 13px;
 	line-height: 2.5;
 }
-.space{
-margin-top: 40px;
-}
-.space1{
-	padding-top: 40px;
-}
-.ookisa{
-	font-size: 50px;
+.moji1 h2{
+	text-align: center;
+	font-size: 30px;
 }
