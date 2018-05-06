@@ -1,0 +1,41 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.zenbu{
+	letter-spacing:0.2em;
+	font-family: "Tsukushi B Round Gothic","筑紫B丸ゴシック";
+}
+.midasi{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%,-50%);
+}
+.ugokasu{
+	position: relative;
+	background-color:#f8f8f8; 
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100vw;
+	height: 100vh;
+	position: relative;
+}
+
+.page{
+	width: 100vw;
+	height:100vh;
+}
+.float{
+	float:left;
+}
+.float img{
+	width:480px;
+}
+.tab{
+	margin: 20px;
+}
+.tano{
+	margin: 20px;
+}
