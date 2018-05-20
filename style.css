@@ -2,57 +2,70 @@
 	margin: 0;
 	padding: 0;
 }
-
-.head{
+.body{
+	background-color: black;
+	opacity: 0.3;
+}
+.head {
 	position: absolute;
 	display: block;
 	opacity: 1;
 	z-index: 1000000;
 	width: 100%;
-	padding:60px 60px 0;
+	padding: 40px 60px 0;
 	position: fixed;
 }
-
-.headercss{
-	padding:60px 60px 0;
-	float:left;
+.headercss {
+	padding: 60px 60px 0;
+	float: left;
 	position: relative;
 	z-index: 100;
 }
 
-.lili{
+.lili {
 	margin-right: 55px;
-	width:140px;
+	width: 140px;
 	background-color: black;
-	float:left;
+	float: left;
 	list-style: none;
 }
-.lilili{
-	float:left;
+
+.lilili {
+	float: left;
 	margin-right: 30px;
 	list-style: none;
-	
+
 }
-.image1{
+
+.image3{
+float: left;
+	opacity: 0.75;
+	position: relative;
+}
+.image1 {
 	float: left;
 	opacity: 0.75;
+	position: relative;
+	top: 70px
 }
-.navnav{
+
+.navnav {
 	letter-spacing: 0.12em;
 	font-family: 'Crimson Text', serif;
 	font-size: 12px;
 	font-weight: 600;
 }
+
 .gazou {
-	opacity:0.5;
+	background-attachment: fixed;
+	opacity: 0.5;
 	position: relative;
-	background-image:url(11.jpg);
-	background-color:#f8f8f8; 
+	background-image: url(11.jpg);
+	background-color: #f8f8f8;
 	background-size: cover;
 	background-repeat: no-repeat;
 	width: 100vw;
 	height: 100vh;
-	position: relative;
 }
 
 .midasi {
@@ -60,7 +73,7 @@
 	top: 50%;
 	left: 50%;
 	-webkit-transform: translate(-50%, -50%);
-	transform: translate(-50%,-50%)
+	transform: translate(-50%, -50%)
 }
 
 .midasi h1 {
@@ -68,36 +81,93 @@
 	font-family: cursive;
 	font-size: 100px;
 }
+.midasi2{
+	font-size: 40px;
+}
 
-.page2b{
+.page2b {
 	font-family: "top Ryumin";
 	background-color: #EEEEEE;
-	height: 100%;
-	width: 100%;
+	height: 90vh;
+	width: 100vw;
 	color: #222222;
 	position: relative;
 }
-.page2{
+
+.page2 {
 	padding: 60px 0px 0px 90px;
 	letter-spacing: 0.2em;
 }
-.image2{
+.image2 {
 	opacity: 0.75;
+	float: left;
+	position: absolute;
+	left: 200px;
+	top: 350px;
 }
-.moji{
+
+.moji {
 	padding: 30px;
 	width: 600px;
 	float: left;
+	margin-left: 200px;
+	position: relative;
+	top: 80px;
+	font-family: 'Crimson Text', serif;
+	background-color: #fff;
 }
-.page2 h1{
-	font-size: 25px; 
+
+.page2 h1 {
+	font-size: 25px;
 	margin-bottom: 20px;
+	text-decoration: underline;
 }
-.page2 h2{
+
+.page2 h2 {
 	font-size: 13px;
-	line-height: 2.5;
+	line-height: 5em;
 }
-.moji1 h2{
-	text-align: center;
-	font-size: 30px;
+
+.ueue {
+	background-color: #eeeeee;
+}
+.ueue h1 {
+	font-family: 'Crimson Text', serif;
+	width: 100vw;
+	height: 15vh;
+	padding-left: 200px;
+	position: relative;
+	line-height: 120px;
+}
+.moji {
+	width: 600px;
+	float: left;
+	position: relative;
+	font-family: 'Crimson Text', serif;
+	background-color: #fff;
+}
+.moji1 {
+	width: 600px;
+	float: left;
+	position: relative;
+	font-family: 'Crimson Text', serif;
+	background-color: #fff;
+}
+.moji2 {
+	width: 600px;
+	float: left;
+	position: relative;
+	font-family: 'Crimson Text', serif;
+	background-color: #fff;
+}
+.moji3 {
+	width: 600px;
+	float: left;
+	position: relative;
+	font-family: 'Crimson Text', serif;
+	background-color: #fff;
+}
+.page3{
+	padding: 0px 60px;
+	letter-spacing: 0.2em;
 }
